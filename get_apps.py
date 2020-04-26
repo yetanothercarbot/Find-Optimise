@@ -15,8 +15,8 @@ def main():
         result = raw.decode(FILE_ENCODING)
         f.close()
     else:
-        print("To analyse a log file, enter its name. Press enter without entering anything to\n" +
-        "reboot a connected phone. If choosing latter option, please verify that USB\n" +
+        print("To analyse a log file, enter its name or press enter to\n" +
+        "reboot and analyse a connected phone. If choosing latter option, please verify that USB\n" +
         "debugging is enabled on target device.")
         given_input = input("> ")
         print("")
